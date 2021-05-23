@@ -10,10 +10,17 @@ Looks simple but mathematically how can we represent this. Here is the maths:
 ## RESULTS:
 Results obtained using all the algorithms above mentioneed.
 We can divide our data in test and train sets for checking our algorithms efficiency. After dividing we train our algo on train data. Here below is the graph of training data which spreads in graph.
+
 ![GitHub Logo](/images/TestDataSet.png)
+
 After that we test our data on algorithm and make a best fit line which are shown below in the graph. Here cross point which are shown on the graph are training data and other points are testing data. Here is the green line is the best fit line which divide our data into two pieces. 
+
 ![GitHub Logo](/images/Fit.png)
+
 After that we make a graph which clearly shows the error of each point from the best fit line. We use a plotly graph for achieving the error graph. First, we make a graph and after that we append the line between the point and best fit line. For this we calculate the distance between the point and the line. 
+
 ![GitHub Logo](/images/ErrorLine.png)
+
 Here we make a graph which shows the relation between the cost and iteration. For making our algorithm best we use the iteration factor. In this graph we clearly see that if the number of iterations increase cost decreases and after some time its constant and does not any changes see. So, for making our algorithm best we find this state.
+
 ![GitHub Logo](/images/costFun.png)
