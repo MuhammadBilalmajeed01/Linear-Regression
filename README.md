@@ -19,7 +19,7 @@ After that we test our data on algorithm and make a best fit line which are show
 
 After that we make a graph which clearly shows the error of each point from the best fit line. We use a plotly graph for achieving the error graph. First, we make a graph and after that we append the line between the point and best fit line. For this we calculate the distance between the point and the line. 
 
-![GitHub Logo](/images/ErrorLine.png)
+![GitHub Logo](/images/ErrorLine.PNG)
 
 Here we make a graph which shows the relation between the cost and iteration. For making our algorithm best we use the iteration factor. In this graph we clearly see that if the number of iterations increase cost decreases and after some time its constant and does not any changes see. So, for making our algorithm best we find this state.
 
